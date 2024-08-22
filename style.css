@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.list{
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+.title{
+    font-size: 60px;
+}
+
+img{
+    width: 640px;
+    height: auto;
+}
+
+.pienempi{
+    width: 320px;
+    height: auto;
+}
+
+.imgcont{
+    background-image: url(img/tähdet.png);
+    width: 800px;
+    height: 350px;
+    background-size: contain;
+    text-align: center;
+    margin: auto;
+}
+
+.arvostelut{
+    font-size: 20px;
+    position: relative;
+    top: 65%
+}
+
+.ala{
+    font-size: 35px;
+}
+
+.desc{
+    font-size: 25px;
+    background-color: lightpink;
+    color: white;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}
