@@ -7,6 +7,8 @@ body{
     display: inline-block;
     text-align: left;
     font-size: 20px;
+    padding: 0px;
+
 }
 .title{
     font-size: 60px;
@@ -15,12 +17,27 @@ body{
 img{
     width: 640px;
     height: auto;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
-.pienempi{
-    width: 320px;
-    height: auto;
+.kokkicont{
+    position: relative;
+    width: 845px;
+    height: 722px;
+    background-image: url(img/makaronilaatikko.jpg);
+    background-size:contain;
+    margin: auto;
 }
+
+.kokkicont img{
+    height: auto;
+    position: absolute;
+    width: 385px;
+    left: 60%;
+    top: 40px;
+
+    } 
 
 .imgcont{
     background-image: url(img/tähdet.png);
@@ -39,12 +56,15 @@ img{
 
 .ala{
     font-size: 35px;
+    padding: 20px;
+    margin: 0px;
 }
 
 .desc{
     font-size: 25px;
     background-color: lightpink;
-    color: white;
+    border: 1px solid black;
+    color: black;
     width: 1200px;
     text-align: center;
     margin: auto;
